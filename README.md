@@ -1,4 +1,4 @@
-# Docker Victor Hugo
+# Docker for Victor Hugo
 
 **A Docker image for Victor Hugo**
 
