@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build: .
+    container_name: victor-hugo
+    ports:
+      - 3000:3000
+    volumes:
+      - ./app/site:/usr/share/app/site
+      - ./app/src:/usr/share/app/src
+      - ./app/dist:/usr/share/app/dist
+    command: npm start
